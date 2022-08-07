@@ -1,1 +1,2 @@
-# API-add-and-view-friends
+# friends app (api)
+ 

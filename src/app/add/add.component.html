@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row g-3">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <label class="form-label" for="">Name</label>
+                    <input name="name" [(ngModel)]="name" type="text" class="form-control">
+                </div>
+               
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <label class="form-label" for="">friendName</label>
+                    <input type="text" name="friendName" [(ngModel)]="friendName" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <label class="form-label" for="">Friend Nick Name</label>
+                    <input type="text" name="friendNickName" [(ngModel)]="friendNickName" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <label class="form-label" for="">Description</label>
+                    <input type="text" name="DescribeYourFriend" [(ngModel)]="DescribeYourFriend"  class="form-control">
+                </div>
+                <div class="col btn btn-center mt-2 col  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <button (click)="valueRead()"class="btn btn-success">Sumbit</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
